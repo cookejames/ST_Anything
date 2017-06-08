@@ -18,7 +18,7 @@
  *    ----        ---            ----
  *    2017-04-10  Dan Ogorchock  Original Creation
  *
- * 
+ *
  */
 metadata {
 	definition (name: "Child Temperature Sensor", namespace: "ogiewon", author: "Daniel Ogorchock") {
@@ -30,7 +30,7 @@ metadata {
 	tiles(scale: 2) {
 		multiAttributeTile(name: "temperature", type: "generic", width: 6, height: 4, canChangeIcon: true) {
 			tileAttribute("device.temperature", key: "PRIMARY_CONTROL") {
-				attributeState("temperature", label: '${currentValue}°', unit:"F", defaultState: true, 
+				attributeState("temperature", label: '${currentValue}°', unit:"F", defaultState: true,
 						backgroundColors: [
                                 // Celsius
                                 [value: 0, color: "#153591"],
